@@ -1,21 +1,33 @@
 body {
 	background-image: url("../images/sandpaper.png");
 }
-.navbar {
-	position: fixed;
-	top: 0%;
-	width: 100%;
+header {
 	background-color: white;
 	border-bottom-style: solid;
-	border-bottom-color: grey;
 	border-bottom-width: 2px;
-	margin-bottom: 20px;
+	border-bottom-color: grey;
+	overflow: auto;
+	width: 100%;
 }
-.navbar h1 {
-	background-color: green;
+header h1 {
+	background-color: teal;
+	padding: 25px;
+	margin: 20px 0 0 100px;
+	display: inline-block;
+	color: white;
 }
-.navbar ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
+header ul {
+	float: right;
+	margin: 50px 100px 0;
+}
+header li {
+	float: left;
+	border-right: 1px solid grey;
+}
+header li a {
+	display: inline-block;
+	background-color: white;
+	padding: 0 10px;
+	text-align: center;
+	text-decoration: none;
 }
