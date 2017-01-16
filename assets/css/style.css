@@ -1,0 +1,17 @@
+body {
+	background-image: url("../images/sandpaper.png");
+}
+.navbar {
+	background-color: white;
+	border-bottom-style: solid;
+	border-bottom-color: grey;
+	border-bottom-width: 2px;
+}
+.navbar h1 {
+	background-color: green;
+}
+.navbar ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
