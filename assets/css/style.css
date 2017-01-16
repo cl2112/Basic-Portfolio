@@ -2,10 +2,14 @@ body {
 	background-image: url("../images/sandpaper.png");
 }
 .navbar {
+	position: fixed;
+	top: 0%;
+	width: 100%;
 	background-color: white;
 	border-bottom-style: solid;
 	border-bottom-color: grey;
 	border-bottom-width: 2px;
+	margin-bottom: 20px;
 }
 .navbar h1 {
 	background-color: green;
