@@ -83,3 +83,40 @@ footer {
 	width: 40px;
 	padding: 10px 23px;
 }
+.portfolio {
+	margin-top: 40px;
+}
+.portfolioContainer {
+	height: 200px;
+	width: 200px;
+	margin: 20px;
+}
+.portfolioContainer p {
+	text-align: center;
+	background-color: teal;
+	color: white;
+	margin-top: 155px;
+	height: 20px;
+	width: 200px;
+	padding: 10px 0;
+}
+#hangman {
+	background-image: url(../images/placeholder-1.jpg);
+	display: inline-block;
+}
+#rpgGame {
+	background-image: url(../images/placeholder-2.jpg);
+	display: inline-block;
+}
+#triviaGame {
+	background-image: url(../images/placeholder-3.jpg);
+	display: inline-block;
+}
+#rutgersInfo {
+	background-image: url(../images/placeholder-4.jpg);
+	display: inline-block;
+}
+#rps {
+	background-image: url(../images/placeholder-5.jpg);
+	display: inline-block;
+}
