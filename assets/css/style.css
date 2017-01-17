@@ -139,6 +139,7 @@ footer {
 .contactForm input {
 	width: 100%;
 	border: 1px solid #ccc;
+	padding: 6px;
 }
 .contactForm #contactMessage {
 	height: 200px;
