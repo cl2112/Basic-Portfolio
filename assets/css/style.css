@@ -2,6 +2,9 @@ body {
 	background-image: url("../images/sandpaper.png");
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
+.bodyContainer {
+	width: 960px;
+}
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	font-size: 24px;
@@ -40,10 +43,10 @@ footer {
 	clear: both;
 }
 .mainContainer {
-	width: 650px;
+	width: 568px;
 	background-color: white;
 	border: 1px solid grey;
-	margin: 40px 0 40px 100px;
+	margin: 40px -70px 40px 100px;
 	padding: 40px;
 	line-height: 150%;
 	float: left;
@@ -67,7 +70,7 @@ footer {
 }
 .connect {
 	background-color: white;
-	width: 270px;
+	width: 238px;
 	border: 1px solid grey;
 	float: left;
 	margin: 40px 0 40px 100px;
@@ -81,7 +84,7 @@ footer {
 .connect img {
 	height: 40px;
 	width: 40px;
-	padding: 10px 23px;
+	padding: 10px 15px;
 }
 .portfolio {
 	margin-top: 40px;
