@@ -4,6 +4,7 @@ body {
 }
 .bodyContainer {
 	width: 960px;
+	min-width: 770px;
 }
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Georgia', Times, Times New Roman, serif;
@@ -16,6 +17,7 @@ header {
 	border-bottom-color: grey;
 	overflow: auto;
 	width: 100%;
+	min-width: 770px;
 }
 header h1 {
 	background-color: teal;
@@ -41,6 +43,11 @@ header li a {
 }
 footer {
 	clear: both;
+	padding: 30px;
+	text-align: center;
+	background-color: grey;
+	border-top: 5px solid teal;
+	color: white;
 }
 .mainContainer {
 	width: 568px;
