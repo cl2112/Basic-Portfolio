@@ -1,6 +1,7 @@
 body {
 	background-image: url("../images/subtle_white_mini_waves.png");
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
 }
 .bodyContainer {
 	width: 960px;
@@ -9,18 +10,19 @@ body {
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	font-size: 24px;
+	color: #4aaaa5;
 }
 header {
-	background-color: white;
+	background-color: #ffffff;
 	border-bottom-style: solid;
 	border-bottom-width: 2px;
-	border-bottom-color: grey;
+	border-bottom-color: #cccccc;
 	overflow: auto;
 	width: 100%;
 	min-width: 770px;
 }
 header h1 {
-	background-color: teal;
+	background-color: #4aaaa5;
 	padding: 25px;
 	margin: 20px 0 0 100px;
 	display: inline-block;
@@ -45,14 +47,14 @@ footer {
 	clear: both;
 	padding: 30px;
 	text-align: center;
-	background-color: grey;
-	border-top: 5px solid teal;
+	background-color: #666666;
+	border-top: 5px solid #4aaaa5;
 	color: white;
 }
 .mainContainer {
 	width: 568px;
-	background-color: white;
-	border: 1px solid grey;
+	background-color: #ffffff;
+	border: 1px solid #dddddd;
 	margin: 40px -70px 40px 100px;
 	padding: 40px;
 	line-height: 150%;
@@ -78,7 +80,7 @@ footer {
 .connect {
 	background-color: white;
 	width: 238px;
-	border: 1px solid grey;
+	border: 1px solid #dddddd;
 	float: left;
 	margin: 40px 0 40px 100px;
 	padding: 15px;
