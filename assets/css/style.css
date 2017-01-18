@@ -103,6 +103,9 @@ footer {
 	width: 200px;
 	margin: 20px;
 }
+.portfolio a {
+	text-decoration: none;
+}
 .portfolioContainer p {
 	text-align: center;
 	background-color: teal;
