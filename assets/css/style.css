@@ -48,12 +48,13 @@ header li a {
 }
 header li a:hover {
 	border-top: 1px solid teal;
+	border-bottom: 1px solid teal;
 }
 header li a:visited {
 	color: #aaa
 }
 header li.active {
-	border-bottom: 1px solid teal;
+	border: 1px dotted grey;
 }
 footer {
 	clear: both;
