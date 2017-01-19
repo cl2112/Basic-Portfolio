@@ -34,6 +34,9 @@ header ul {
 }
 header li {
 	float: left;
+}
+header li#portLink {
+	border-left: 1px solid grey;
 	border-right: 1px solid grey;
 }
 header li a {
@@ -74,9 +77,6 @@ footer {
 	float: left;
 	margin: 0 40px 40px 0;
 }
-.bio p {
-	
-}
 .connect {
 	background-color: white;
 	width: 238px;
@@ -101,7 +101,7 @@ footer {
 .portfolioContainer {
 	height: 200px;
 	width: 200px;
-	margin: 20px;
+	margin: 0 20px 20px 0;
 }
 .portfolio a {
 	text-decoration: none;
